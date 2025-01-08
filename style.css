@@ -4,27 +4,20 @@
     margin: 0px;
     padding: 0px;
 }
-
 body {
     background-color: whitesmoke;
 }
+button {
+    cursor: pointer;
+}
 
 .div1 {
-    background-color: rgb(70, 0, 135);
-    height: 90px;
-    display: flex;
+    width: 100%;
+    background-color: #770ae3;
+    padding: 10px 0;
+    
     align-items: center;
-    color: white;
-    z-index: 0;
-    font-weight: bold;
 }
-
-.div1 button {
-    border: none;
-    background-color: transparent;
-    color: white;
-}
-
 #logo {
     width: 125px;
     height: 125px;
@@ -32,19 +25,51 @@ body {
     z-index: 1;
     top: 10px;
     left: 50px;
-    
 }
-
+.nav2 .category button,
+.nav3 .category button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
 .div1 button:hover {
-    color:rgb(168, 107, 225);
+    color: rgb(168, 107, 225);
 }
-
-#search-icon {
-    width: 25px;
-    height: 25px;
+#search-input {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
-#search-btn {
+#search-btn img {
+    max-width: 20px;
+}
+.div1 button {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+#search-input {
     border-radius: 5px;
     border: none;
-    margin-left: 25px;    
+}
+#search-icon {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+#search-icon:hover {
+
+}
+
+.nav3 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#sign-in-btn {
+    margin-left: 10px;
+    padding-right: 25px;
 }
