@@ -13,7 +13,7 @@ button {
 
 .div1 {
     width: 100%;
-    background-color: #770ae3;
+    background-color: #441A7E;
     padding: 10px 0;
     
     align-items: center;
@@ -71,5 +71,56 @@ button {
 }
 #sign-in-btn {
     margin-right: 50px;
-    padding-top: 2px;
+    padding-top: 3px;
+}
+
+
+
+
+
+
+.div2 {
+    height: 650px;
+    margin-top: 5%;
+    color: rgb(68, 26, 126);
+}
+.find {
+    margin-top: 5%;
+    margin-right: 20%;
+
+}
+#adopt-btn1 {
+    margin-top: 10%;
+    border: none;
+    background-color: RGB(68, 26, 126);
+    color: white;
+    width: 35%;
+    height: 15%;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 10px;
+}
+.social-btns {
+    margin-top: 100px;
+    border: none;
+}
+.social-icon {
+    width: 25%;
+}
+
+
+
+#eclipse-img {
+    width: 50%;
+    position: absolute;
+    right: 3%;
+    top:20%;
+    z-index: 0;
+}
+#pets-img {
+    width: 50%;
+    position: absolute;
+    right: 1%;
+    top: 30%;
+    z-index: 1;
 }
