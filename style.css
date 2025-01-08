@@ -1,0 +1,35 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.div1 {
+    background-color: rgb(70, 0, 135);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    color: white;
+    z-index: 0;
+    font-weight: bold;
+}
+
+#logo {
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 50px;
+    
+}
+#search-btn {
+    border-radius: 5px;
+    border: none;
+    
+}
