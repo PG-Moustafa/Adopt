@@ -19,6 +19,12 @@ body {
     font-weight: bold;
 }
 
+.div1 button {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
 #logo {
     width: 125px;
     height: 125px;
@@ -28,8 +34,17 @@ body {
     left: 50px;
     
 }
+
+.div1 button:hover {
+    color:rgb(168, 107, 225);
+}
+
+#search-icon {
+    width: 25px;
+    height: 25px;
+}
 #search-btn {
     border-radius: 5px;
     border: none;
-    
+    margin-left: 25px;    
 }
