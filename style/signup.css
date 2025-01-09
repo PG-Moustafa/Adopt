@@ -1,0 +1,131 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: whitesmoke;
+}
+button {
+    cursor: pointer;
+}
+
+.div1 {
+    width: 100%;
+    background-color: #441A7E;
+    padding: 1% ;
+    align-items: center;
+}
+#logo {
+    width:12%;
+    height:auto;
+    position: absolute;
+    z-index: 1;
+    top: 2%;
+    left: 4%;
+}
+.nav2 .category button,
+.nav3 .category button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 2% 4%;
+    cursor: pointer;
+}
+.div1 button:hover {
+    color: rgb(168, 107, 225);
+}
+#search-input {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#search-btn img {
+    max-width: 20px;
+}
+.div1 button {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+#search-input {
+    border-radius: 5px;
+    border: none;
+}
+#search-icon {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+#search-icon:hover {
+
+}
+
+.nav3 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#sign-in-btn {
+    margin-left: 10px;
+    padding-right: 25px;
+}
+
+.signup-container{
+    margin-top: 2%;
+    margin-left: 17%;
+     color: #441A7E;
+     width: 30%;
+}
+#h3{
+    margin-bottom: 4%;
+}
+form .field input[type='text'],input[type='email'],input[type='password']{
+   height:100%;
+    width: 100%;
+    padding: 2%;
+    border: 1.5px solid #441A7E;
+    border-radius: 10px;
+    margin-bottom : 2%;
+    font-size: 10px;
+    box-shadow: none;
+    outline: none;
+   
+}
+form .field input::placeholder{
+    color:#441A7E;
+    font-size: 11px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+form .field input:focus::placeholder{
+    color:white;
+    transition: all 0.3s ease;
+  }
+
+  form  .field-btn input[type="submit"]{
+    background-color: #441A7E;
+    border: 2px solid #441A7E;
+    border-radius: 10px;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 3%;
+    padding: 1%;
+    box-shadow: none;
+    outline: none;
+  }
+  form .field-checkbox input[type="checkbox"] label{
+    font-size:2px;
+  }
+ .field-check label, .signup-container p {
+    font-size:12px;
+  }
+  .signup-container p {
+    margin-left:25%;
+    margin-top:2%;    
+}
