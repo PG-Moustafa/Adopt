@@ -35,3 +35,8 @@
 #confirm-sign-in:hover {
     opacity: 1;
 }
+#go-to-sign-up {
+    border: none;
+    background-color: transparent;
+    color: red;
+}

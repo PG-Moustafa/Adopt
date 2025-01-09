@@ -5,6 +5,7 @@ let shop = document.getElementById("shop-btn")
 let volunteer = document.getElementById("volunteer-btn")
 let whoWeAre = document.getElementById("who-we-are-btn")
 let signin = document.getElementById("sign-in-btn")
+let signup = document.getElementById("go-to-sign-up")
 
 
 home.addEventListener("click", function() {
@@ -29,4 +30,8 @@ whoWeAre.addEventListener("click", function() {
 
 signin.addEventListener("click", function() {
     window.location.href = "signin.html";
+})
+
+signup.addEventListener("click", function() {
+    window.location.href = "signup.html";
 })
